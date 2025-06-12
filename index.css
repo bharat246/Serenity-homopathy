@@ -223,6 +223,45 @@
   box-shadow: 0 4px 20px rgba(0,0,0,0.05);
 }
 
+#about {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+  max-width: 600px;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about-content p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+
 
 
   
